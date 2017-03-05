@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var platform_browser_dynamic_1 = require("@angular/platform-browser-dynamic");
-var CatalogueModule_1 = require("./modules/CatalogueModule");
+var MainModule_1 = require("./modules/MainModule");
 var platform = platform_browser_dynamic_1.platformBrowserDynamic();
-platform.bootstrapModule(CatalogueModule_1.CatalogueModule);
+platform.bootstrapModule(MainModule_1.MainModule);
 //# sourceMappingURL=main.js.map

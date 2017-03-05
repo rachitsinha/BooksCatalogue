@@ -11,17 +11,19 @@ var core_1 = require("@angular/core");
 var forms_1 = require("@angular/forms");
 var http_1 = require("@angular/http");
 var AppComponent_1 = require("../components/AppComponent");
-var CatalogueModule = (function () {
-    function CatalogueModule() {
+var BookComponent_1 = require("../components/BookComponent");
+var CatalogueComponent_1 = require("../components/CatalogueComponent");
+var MainModule = (function () {
+    function MainModule() {
     }
-    return CatalogueModule;
+    return MainModule;
 }());
-CatalogueModule = __decorate([
+MainModule = __decorate([
     core_1.NgModule({
         imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, http_1.HttpModule],
-        declarations: [AppComponent_1.AppComponent],
+        declarations: [AppComponent_1.AppComponent, CatalogueComponent_1.CatalogueComponent, BookComponent_1.BookComponent],
         bootstrap: [AppComponent_1.AppComponent]
     })
-], CatalogueModule);
-exports.CatalogueModule = CatalogueModule;
-//# sourceMappingURL=CatalogueModule.js.map
+], MainModule);
+exports.MainModule = MainModule;
+//# sourceMappingURL=MainModule.js.map
