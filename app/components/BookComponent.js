@@ -19,7 +19,7 @@ var BookComponent = (function () {
 __decorate([
     core_1.Input(),
     __metadata("design:type", Book_1.default)
-], BookComponent.prototype, "bookModel", void 0);
+], BookComponent.prototype, "book", void 0);
 BookComponent = __decorate([
     core_1.Component({
         selector: "book",

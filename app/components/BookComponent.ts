@@ -8,10 +8,10 @@ import Book from "../models/Book";
 
 export class BookComponent
 {
-    @Input() bookModel : Book;
-    
+    @Input() book : Book;
+
     constructor()
     {
-        
+
     }
 }
